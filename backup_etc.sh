@@ -2,7 +2,7 @@
 
 # تعریف مسیرها
 SOURCE="/etc"
-DEST="/backup"
+DEST="//var/lib/jenkins/backups02"
 
 # ساخت نام فایل بکاپ با تاریخ و ساعت
 DATE=$(date +'%Y-%m-%d_%H-%M-%S')
