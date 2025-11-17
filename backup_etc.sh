@@ -17,7 +17,7 @@ fi
 find "$DEST" -name "etc_backup_*.tar.gz" -type f -mtime +7 -exec rm {} \;
 
 # اجرای بکاپ با tar
-tar -czf "$DEST/$FILENAME" "$SOURCE"
+sudo tar -czf "$DEST/$FILENAME" "$SOURCE"
 
 # بررسی موفقیت عملیات
 if [ $? -eq 0 ]; then
